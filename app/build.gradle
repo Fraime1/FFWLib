@@ -4,6 +4,8 @@ plugins {
     id 'maven-publish'
 }
 
+apply plugin: 'maven-publish'
+
 android {
     namespace 'com.frame.ffwlib'
     compileSdk 33
